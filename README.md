@@ -1,7 +1,7 @@
 # Kubernetes Assignment : 
  ## About :   It is an assignment of coding a web server and automating its deployment into a kubernetes cluster.
  
-How to build : 
+**How to build :**
 
 Step 1 : Clone the repository using "https://github.com/NamaHarshitha/kubernetes-assignment.git"
 
@@ -15,7 +15,7 @@ Step 5 : Or,do npm install and npm test.
 
 Step 6 : Access the Server at "http://192.168.49.2/athlete"
 
-Files used in the assignment :
+**Files used in the assignment :**
 
 1..index.js - Source code of the Node.js server
 
@@ -29,7 +29,7 @@ Files used in the assignment :
 
 6. build-and-deploy.sh - A script file which takes care of building, packaging and deploying the application on minikube cluster.
 
-Issues encountered :
+**Issues encountered :**
 
 1. Encountered incompatibility issues while running the software test using mocha framework - resolved it by setting "test": "mocha --experimental-modules test.js" in package.json file.
 
