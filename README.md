@@ -33,7 +33,7 @@ Step 6 : Access the Server at "http://192.168.49.2/athlete"
 
 1. Encountered incompatibility issues while running the software test using mocha framework - resolved it by setting "test": "mocha --experimental-modules test.js" in package.json file.
 
-2. Faced congiguration issues while setting up minikube cluster, resolved them by setting the environmental variable KUBECONFIG=$HOME/.kube/my_minikube_config
+2. Faced configuration issues while setting up minikube cluster, resolved them by setting the environmental variable KUBECONFIG=$HOME/.kube/my_minikube_config
 
 3.Faced the "ImagePullBackOff" error while trying to work with local Docker image - resolved it by including "imagePullPolicy: Never" in the Deployment File.
 
