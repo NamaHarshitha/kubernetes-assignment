@@ -17,7 +17,7 @@ Step 6 : Access the Server at "http://192.168.49.2/athlete"
 
 **Files used in the assignment :**
 
-1..index.js - Source code of the Node.js server
+1.index.js - Source code of the Node.js server
 
 2.test.js - A Software test for the Node.js server using mocha framework
 
